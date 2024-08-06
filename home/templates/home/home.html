@@ -10,9 +10,13 @@
     <title>Document</title>
 
     <script src="{% static 'home/js/vendors/pace.js' %}"></script>
-    <link rel="stylesheet" href="{% static 'home/css/loader.css' %}">  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="{% static 'home/css/loader.css' %}">  
+    
+    <!-- フォント開始 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet">
+    <!-- フォント終了 -->
 
     <link rel="stylesheet" href="{% static 'home/css/vendors/reset.css' %}" />
     <link rel="stylesheet" href="{% static 'home/css/vendors/swiper-bundle.min.css' %}" />
@@ -38,8 +42,8 @@
         <header class="header">
           <div class="header__inner appear up">
             <div class="logo item">
-              <span class="logo__stay">Kaizaki</span>
-              <span class="logo__world">Photo</span>
+              <span class="logo__kaizaki">Kaizaki</span>
+              <span class="logo__photo">Photo</span>
             </div>
             <nav class="header__nav">
               <ul class="header__ul">
@@ -285,9 +289,9 @@
 
       </div>
       <nav class="mobile-menu">
-        <div class="logo">
-          <span class="logo__stay">Kaizaki</span>
-          <span class="logo__world">Photo</span>
+        <div class="logo mobile-menu__logo">
+          <span class="logo__kaizaki">Kaizaki</span>
+          <span class="logo__photo">Photo</span>
         </div>
         <ul class="mobile-menu__main">
           <li class="mobile-menu__item">

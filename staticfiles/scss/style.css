@@ -208,15 +208,15 @@ img {
   vertical-align: bottom;
 }
 
-.mb-sm, .about__img, .gallary__title, .plan__title, .sub-title {
+.mb-sm, .about__img, .gallery__title, .plan__title, .sub-title {
   margin-bottom: 16px !important;
 }
 
-.mb-lg, .about, .gallary, .plan__btn, .news {
+.mb-lg, .about, .gallery, .plan__btn, .news {
   margin-bottom: 80px !important;
 }
 @media screen and (min-width: 960px) {
-  .mb-lg, .about, .gallary, .plan__btn, .news {
+  .mb-lg, .about, .gallery, .plan__btn, .news {
     margin-bottom: 150px !important;
   }
 }
@@ -234,18 +234,18 @@ img {
   }
 }
 
-.content-width, .header__inner, .about, .gallary, .plan__header, .plan__container, .news, .footer {
+.content-width, .header__inner, .about, .gallery, .plan__header, .plan__container, .news, .footer {
   width: 90%;
   margin: 0 auto;
   max-width: 1070px;
 }
 
-.flex, .header__nav, .about__inner, .gallary__inner, .plan__container, .footer__nav, .footer__ul {
+.flex, .header__nav, .about__inner, .gallery__inner, .plan__container, .footer__nav, .footer__ul {
   display: flex;
   flex-direction: column;
 }
 @media screen and (min-width: 600px) {
-  .flex, .header__nav, .about__inner, .gallary__inner, .plan__container, .footer__nav, .footer__ul {
+  .flex, .header__nav, .about__inner, .gallery__inner, .plan__container, .footer__nav, .footer__ul {
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -273,11 +273,11 @@ img {
   }
 }
 
-.font-lr, .gallary__title {
+.font-lr, .gallery__title {
   font-size: 17px;
 }
 @media screen and (min-width: 960px) {
-  .font-lr, .gallary__title {
+  .font-lr, .gallery__title {
     font-size: 23px;
   }
 }
@@ -901,16 +901,16 @@ main {
   }
 }
 @media screen and (min-width: 600px) {
-  .gallary__item {
+  .gallery__item {
     flex-basis: 50%;
   }
 }
 @media screen and (min-width: 960px) {
-  .gallary__item {
+  .gallery__item {
     margin-bottom: 60px;
   }
 }
-.gallary__btn {
+.gallery__btn {
   text-align: center;
   flex-basis: 100%;
 }
