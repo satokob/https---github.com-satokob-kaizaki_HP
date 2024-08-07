@@ -14,6 +14,10 @@ $cMenuOpen: $cBlack;
     font-size: 38px;
   }
 
+  &__logo {
+    opacity: 0;
+  }
+
   &__btn {
     background-color: unset;
     border: none;
@@ -91,6 +95,10 @@ $cMenuOpen: $cBlack;
           transition-delay: $i * 0.07s;
         }
       }
+    }
+
+    &__logo {
+      opacity: 1;
     }
     
     &__btn {
